@@ -25,9 +25,21 @@ main {
       font-weight: 400;
 }
 
-.hide {
-      display: none;
-      font-size: 26px;
+.travel-titles {
+      color: #131318;
+      font-size: 2.2rem;
+      font-weight: 600;
+}
+
+.travel-btn {
+      border-radius: 8px;
+      background: #FF5400;
+      border: none;
+      color: #FFF;
+      font-weight: 700;
+      height: 50px;
+      width: 150px;
+      cursor: pointer;
 }
 
 /* Header related styles */
@@ -136,13 +148,42 @@ nav ul li a {
       background-position: right;
 }
 
-.banner-btn {
-      border-radius: 8px;
-      background: #FF5400;
-      border: none;
-      color: #FFF;
-      font-weight: 700;
-      height: 50px;
-      width: 150px;
-      cursor: pointer;
+
+/* our popular tours related styles */
+.popular-tours-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 70px;
+      align-items: center;
+}
+
+.popular-tours-content {
+      width: 50%;
+
+}
+
+.popular-tours-image {
+      width: 50%;
+}
+
+.popular-tours-image img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+}
+
+.popular-title,
+.popular-para,
+.popular-ul,
+.popular-conclusion {
+      margin-bottom: 24px;
+}
+
+.popular-ul {
+      padding-left: 30px;
+}
+
+.popular-ul>li {
+      font-size: 14px;
+      margin-bottom: 10px;
 }
