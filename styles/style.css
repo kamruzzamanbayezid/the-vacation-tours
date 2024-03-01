@@ -13,6 +13,18 @@ body {
       font-family: "Poppins", sans-serif;
 }
 
+main {
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+/* Common & shared styles */
+.travel-description {
+      color: rgba(19, 19, 24, 0.70);
+      font-size: 1rem;
+      font-weight: 400;
+}
+
 .hide {
       display: none;
       font-size: 26px;
@@ -66,4 +78,71 @@ nav ul li a {
       color: var(--Dark-02, #424247);
       font-size: 1.2rem;
       font-weight: 400;
+}
+
+/* banner related styles */
+.banner-container {
+      background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 0;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 70px;
+      border-radius: 16px;
+}
+
+.banner-title {
+      color: #FFF;
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+}
+
+.banner-description {
+      color: #FFF;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 25px;
+}
+
+
+
+.banner-form {
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.30);
+      padding: 16px;
+}
+
+.banner-form input[type="text"] {
+      height: 50px;
+      border-radius: 8px;
+      background: #FFF;
+      border: none;
+      padding: 0 15px;
+}
+
+.banner-form input::placeholder {
+      color: rgba(19, 19, 24, 0.50);
+      font-weight: 400;
+}
+
+.banner-form .input-text::placeholder {
+      background-image: url('/Images/Frame.jpg');
+      background-repeat: no-repeat;
+      background-position: right;
+}
+
+.banner-btn {
+      border-radius: 8px;
+      background: #FF5400;
+      border: none;
+      color: #FFF;
+      font-weight: 700;
+      height: 50px;
+      width: 150px;
+      cursor: pointer;
 }
