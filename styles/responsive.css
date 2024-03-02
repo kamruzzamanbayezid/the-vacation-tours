@@ -101,6 +101,7 @@
       .deals-discount-cards {
             width: 70%;
       }
+    
 
       /* Meet the team related styles */
       .team-container {
@@ -232,15 +233,10 @@
       }
 
       .deals-discount-cards {
-            border-radius: 16px;
-            border: 2px solid #FFF;
-            background: rgba(255, 255, 255, 0.80);
-            backdrop-filter: blur(2.5px);
             width: 100%;
-            padding: 50px;
+            padding: 20px;
             margin-left: auto;
       }
-
 
       /* Meet the team related styles */
       .team-container {
