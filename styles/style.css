@@ -248,7 +248,7 @@ nav ul li a {
 
 .newsletter-image {
       width: 55%;
-      /* border: 1px solid green; */
+      position: relative;
 }
 
 .newsletter-image img {
@@ -274,6 +274,27 @@ nav ul li a {
 .newsletter-form>button {
 
       width: 100%;
+}
+
+.news-discount {
+      border-radius: 8px;
+      background: #FF5400;
+      color: #FFF;
+      width: fit-content;
+      padding: 15px 30px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      right: -13px;
+      transform: rotate(-20deg) translateY(-60px);
+}
+
+.news-discount>p {
+      font-size: 1.5rem;
+}
+
+.news-discount>h4 {
+      font-size: 2rem;
 }
 
 
