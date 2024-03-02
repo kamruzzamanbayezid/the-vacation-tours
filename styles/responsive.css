@@ -53,9 +53,10 @@
       }
 
       /* Choose your destination */
-      .destination-container{ 
+      .destination-container {
             margin-bottom: 20px;
       }
+
       .destination-gallery {
             margin-top: 20px;
             grid-gap: 10px;
@@ -95,6 +96,17 @@
             width: 100%;
             text-align: center;
       }
+
+      /* Meet the team related styles */
+      .team-container {
+            margin-bottom: 40px;
+      }
+
+      .team-members {
+            grid-gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+      }
+
 
 
       /* newsletter related styles */
@@ -198,9 +210,30 @@
 
 
       /* choose us section */
+      .choose-us-container {
+            margin-bottom: 40px;
+      }
+
       .choose-us-box {
             text-align: start;
       }
+
+
+      /* Meet the team related styles */
+      .team-container {
+            margin-bottom: 40px;
+      }
+
+      .team-members {
+            grid-gap: 20px;
+            grid-template-columns: 1fr;
+      }
+
+      .member-border {
+            border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+            padding-bottom: 30px;
+      }
+
 
       /* newsletter related styles */
       .newsletter-container {

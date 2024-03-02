@@ -304,6 +304,30 @@ nav ul li a {
 }
 
 
+/* Meet the team related styles */
+.team-container {
+      margin-bottom: 70px;
+      text-align: center;
+}
+
+.team-members {
+      margin-top: 40px;
+      display: grid;
+      grid-gap: 100px;
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.team-member img {
+      border-radius: 50%;
+      margin-bottom: 10px;
+}
+
+.team-member h4,p{ 
+      margin-bottom: 5px;
+}
+
+
+
 /* newsletter related styles */
 .newsletter-container {
       margin-bottom: 70px;
