@@ -177,6 +177,8 @@ nav ul li a {
       display: block;
       margin: 0 auto;
       height: 450px;
+      object-fit: cover;
+      border-radius: 16px;
 }
 
 .popular-title,
@@ -194,6 +196,79 @@ nav ul li a {
       font-size: 14px;
       margin-bottom: 10px;
 }
+
+/* Our destination related styles */
+.destination-container {
+      margin-bottom: 70px;
+}
+
+.destination-container h4 {
+      text-align: center;
+}
+
+.destination-para {
+      width: 650px;
+      margin: 0 auto;
+      text-align: center;
+}
+
+.destination-gallery {
+      margin-top: 40px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.maldives {
+      grid-column: 1/7;
+}
+
+.indonesia {
+      grid-column: 7/-1;
+}
+
+.srilanka {
+      grid-column: 1/4;
+}
+
+.north-america {
+      grid-column: 4/10;
+}
+
+.kashmir {
+      grid-column: 10/-1;
+}
+
+.bangladesh {
+      grid-column: 1/5;
+}
+
+.bandarban {
+      grid-column: 5/-1;
+}
+
+.gallery-image {
+      position: relative;
+}
+
+.gallery-image img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      border-radius: 16px;
+}
+
+.destination-country {
+      color: #FFF;
+      font-size: 1.7rem;
+      font-weight: 800;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
 
 /* Why choose us section */
 .choose-us-container {
@@ -254,6 +329,8 @@ nav ul li a {
 .newsletter-image img {
       width: 100%;
       height: min-content;
+      object-fit: cover;
+      border-radius: 16px;
 }
 
 .newsletter-form input {

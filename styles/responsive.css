@@ -52,6 +52,44 @@
             width: 100%;
       }
 
+      /* Choose your destination */
+      .destination-container{ 
+            margin-bottom: 20px;
+      }
+      .destination-gallery {
+            margin-top: 20px;
+            grid-gap: 10px;
+      }
+
+      .gallery-image {
+            height: 250px;
+            margin-bottom: 0px;
+      }
+
+      .destination-para {
+            width: 100%;
+      }
+
+      .srilanka {
+            grid-column: 1/7;
+      }
+
+      .north-america {
+            grid-column: 7/-1;
+      }
+
+      .kashmir {
+            grid-column: 1/7;
+      }
+
+      .bangladesh {
+            grid-column: 7/-1;
+      }
+
+      .bandarban {
+            grid-column: 1/-1;
+      }
+
       /* choose us section */
       .choose-us-box {
             width: 100%;
@@ -142,9 +180,25 @@
             width: 100%;
       }
 
+
+      /* Choose your destination */
+      .destination-gallery {
+            margin-top: 20px;
+            display: block;
+      }
+
+      .gallery-image {
+            height: 200px;
+            margin-bottom: 15px;
+      }
+
+      .destination-para {
+            width: 100%;
+      }
+
+
       /* choose us section */
       .choose-us-box {
-
             text-align: start;
       }
 
