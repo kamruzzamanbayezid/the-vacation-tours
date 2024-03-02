@@ -163,4 +163,18 @@
       .newsletter-image {
             width: 100%;
       }
+
+      /* Footer related styles */
+
+      footer {
+            padding: 40px 0;
+      }
+
+      .footer-para {
+            width: 100%;
+      }
+
+      .footer-icons {
+            width: 100%;
+      }
 }
