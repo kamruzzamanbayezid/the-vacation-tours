@@ -28,6 +28,12 @@ main {
 .travel-titles {
       color: #131318;
       font-size: 2.2rem;
+      font-weight: 700;
+}
+
+.travels-sub-title {
+      color: #131318;
+      font-size: 1.5rem;
       font-weight: 600;
 }
 
@@ -219,4 +225,52 @@ nav ul li a {
 .choose-us-box:hover {
       border: 1px solid rgba(41, 206, 246, 0.20);
       background: rgba(41, 206, 246, 0.05);
+}
+
+
+/* newsletter related styles */
+.newsletter-container {
+      margin-bottom: 70px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.newsletter-content {
+      border-radius: 16px;
+      border: 1px solid #FF5400;
+      padding: 0px 30px;
+      width: 43%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.newsletter-image {
+      width: 55%;
+      /* border: 1px solid green; */
+}
+
+.newsletter-image img {
+      width: 100%;
+      height: min-content;
+}
+
+.newsletter-form input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      border-radius: 8px;
+      background: rgba(19, 19, 24, 0.05);
+      border: none;
+      padding-left: 20px;
+      outline: none;
+}
+
+.newsletter-form * {
+      margin-bottom: 20px;
+}
+
+.newsletter-form>button {
+
+      width: 100%;
 }
